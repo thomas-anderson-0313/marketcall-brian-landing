@@ -9865,8 +9865,8 @@ background: #007CC2;
 content: '';
 left: 0;
 top: 0;
-bottom: 0;
-width: 100%;
+bottom: 0;                                        
+width: 100%;                                      
 animation: loading 2s infinite;
 }
 @keyframes loading {
@@ -9902,13 +9902,13 @@ display: flex !important;
 .checking-steps.hide {  display: none !important; }
 @media screen and (max-width: 767px) {
 .thankyou-box a {
-  max-width: 250px !important;
+  max-width: 250px !important;  
   font-size: 20px !important;
-}
-.check-options .box,
+}                                                        
+.check-options .box,                                     
 .simple-btns.double button,
 .simple-btns button {
 width: 100%;
 min-height: auto;
 }
-}
+}                                              
